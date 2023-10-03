@@ -1,0 +1,814 @@
+@media screen and (max-width: 1200px){
+    .slider{
+        height: 700px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 700px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 20%;
+        right: 15%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 69%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 80px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 60px;
+        color: #02C39A;
+        padding: 10px;
+        
+    }
+    .team>p {
+        font-size: 28px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 140px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 60px;
+        color: #02C39A;
+        padding: 10px;
+        
+    }
+    .team>p {
+        font-size: 26px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 120px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .slider{
+        height: 650px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 650px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 16%;
+        right: 15%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 69%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 70px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .teameall .team-box .postteam a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+    
+}
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 29% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+}
+@media screen and (max-width: 800px){
+    .slider{
+       
+        height: 650px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 650px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 14%;
+        right: 15%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 69%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 60px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 a {
+        text-decoration: none;
+        color: #ffffff !important;
+        font-size: 20px;
+        font-family: estedad;
+        
+    
+    }
+    .slider .slider1 button {
+        margin-top: 10px;
+        width: 167px;
+        height: 66px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+    }
+
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 50px;
+        color: #02C39A;
+        padding: 10px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 700px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 24px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 100px;
+        padding: 0 40px;
+    }
+    .teameall .team-box {
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .teameall .team-box .postteam a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+    
+}
+    /* .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 35% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    } */
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 45% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}
+@media screen and (max-width: 735px){
+    
+    .navbar {
+        height: 70px;
+        width: 100%;
+        padding: 0 !important;
+        overflow: hidden;
+        background-color: #262f2d; 
+        
+    }
+    .navbar>img {
+        display: none;
+        
+    }
+    .navbar ul li a {
+        font-family: estedad !important;
+        font-size: 18px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .slider{
+        margin-top: 70px;
+        height: 600px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 600px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 8%;
+        right: 15%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 69%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 45px;
+        color: #02C39A;
+        padding: 10px;
+        
+    }
+    
+    .team>p {
+        font-size: 22px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 80px;
+        padding: 0 40px;
+    }
+
+    .teameall .team-box .postteam a{
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+    
+}
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 45% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}
+    
+
+@media screen and (max-width: 600px){
+    .navbar ul{
+        position: absolute;
+        right: 2%;
+        margin: 0;
+    }
+    .navbar ul li{
+        margin-left: 5px ;
+        
+    }
+    .navbar>img {
+        display: none;
+        
+    }
+ 
+    .slider{
+        margin-top: 70px;
+        height: 500px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 4%;
+        right: 10%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 80%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 > p {
+        color: #edf3f3;
+        padding-top: 10px;
+        font-size: 25px;
+        text-shadow: 2px 0px 12px rgb(10, 9, 9);
+    }
+
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 40px;
+        color: #02C39A;
+        padding: 10px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 600px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 20px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 70px;
+        padding: 0 20px;
+    }
+
+
+@media screen and (max-width: 550px){
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 38px;
+        color: #02C39A;
+        padding: 6px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 550px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 18px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 60px;
+        padding: 0 20px;
+    }
+
+    .teameall .team-box .postteam h3{
+        font-size: 18px;
+    }
+
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 45% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+
+}
+@media screen and (max-width: 500px){
+    .slider .slider1 > h1 {
+        font-size: 40px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 > p {
+        color: #edf3f3;
+        padding-top: 10px;
+        font-size: 20px;
+        text-shadow: 2px 0px 12px rgb(10, 9, 9);
+    }
+    .slider .slider1 button {
+        margin-top: 10px;
+        width: 140px;
+        height: 46px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+    }
+    .slider .slider1 a {
+        text-decoration: none;
+        color: #ffffff !important;
+        font-size: 15px;
+        font-family: estedad;
+    
+    }
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 35px;
+        color: #02C39A;
+        padding: 4px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 550px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 17px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 50px;
+        padding: 0 20px;
+    }
+
+    .teameall > p {
+        font-size: 28px;
+    }
+    .teameall .team-box .postteam .cre  {
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+    }
+}
+@media screen and (max-width: 450px){
+    .navbar ul li a {
+        font-family: estedad !important;
+        font-size: 18px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navbar ul{
+        width: 100%;
+        position: absolute;
+        right: 2%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul li{
+        padding: 0 !important;
+        float: right;
+        margin-left: 0 ;
+        
+    }
+}
+@media screen and (max-width: 420px){
+    .navbar ul li a {
+        font-family: estedad !important;
+        font-size: 15px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .slider{
+        height: 400px;
+        margin-top: 70px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 400px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 5%;
+        right: 6%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 40px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 > p {
+        color: #edf3f3;
+        padding-top: 10px;
+        font-size: 20px;
+        text-shadow: 2px 0px 12px rgb(10, 9, 9);
+    }
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 33px;
+        color: #02C39A;
+        padding: 4px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 550px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 16px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 50px;
+        padding: 0 20px;
+    }
+
+    .teameall .team-box .postteam h3{
+        font-size: 12px;
+    }
+    .teameall > p {
+        font-size: 25px;
+    }
+
+    .teameall .team-box .postteam a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+
+    }
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 45% !important;
+        text-align: center;
+        padding-bottom: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 385px){
+    .navbar a {
+        font-size: 14px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .slider{
+        height: 300px;
+        margin-top: 70px;
+    }
+    .slider>img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 300px;
+        filter: blur(5px);
+        -webkit-filter: blur(8px);
+    }
+    .slider .slider1 {
+        top: 5%;
+        right: 6%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 30px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 > p {
+        color: #edf3f3;
+        padding-top: 10px;
+        font-size: 16px;
+        text-shadow: 2px 0px 12px rgb(10, 9, 9);
+    }
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 30px;
+        color: #02C39A;
+        padding: 4px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 14px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 50px;
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+    .navbar ul li a {
+        font-family: estedad !important;
+        font-size: 12px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 25px;
+        color: #02C39A;
+        padding: 4px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 13px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 38px;
+        padding: 0 5px;
+    }
+    .teameall .team-box .postteam a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 10px;
+        padding: 3% 25%;
+    
+    }
+    .teameall .team-box .postteam {
+        border-radius: 20px;
+        margin: 0 2% 4% 2%;
+        width: 60% !important;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 285px){
+    .navbar {
+        height: 50px;
+        position: fixed !important;
+        width: 100%;
+        padding: 0 !important;
+        overflow: hidden;
+        background-color: #262f2d; 
+        
+    }
+    .navbar ul li a {
+        font-family: estedad !important;
+        font-size: 10px;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .slider {
+        position: relative;
+        height: 300px;
+        margin-top: 50px;
+       
+        
+    }
+    .slider .slider1 {
+        top: 0;
+        right: 6%;
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .slider .slider1 > h1 {
+        font-size: 25px;
+        color: #ffffff;
+        text-shadow: 1px -1px 3px black;
+        font-family: bahman ;
+    }
+    .slider .slider1 > p {
+        color: #edf3f3;
+        padding-top: 10px;
+        font-size: 16px;
+        text-shadow: 2px 0px 12px rgb(10, 9, 9);
+    }
+
+    .team > h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-family: estedad;
+        font-size: 22px;
+        color: #02C39A;
+        padding: 4px;
+        
+    }
+    .team>img {
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    .team>p {
+        font-size: 13px;
+        color: #edf3f3;
+        text-shadow: 10px 1px 10px rgb(0, 0, 0);
+        font-family: estedad;
+        position: absolute;
+        top: 30px;
+        padding: 0 5px;
+    }
+}
+}
