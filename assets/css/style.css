@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: bahman;
-    src: url("/assets/fonts/bahman font/Bahman 1.ttf"),
-    url("/Users/abbasdp/Documents/GitHub/fingercoder/assets/fonts/bahman font/Bahman 2.ttf");
+    src: url("https://fingercoder.ir/assets/fonts/bahman font/Bahman 1.ttf"),
+    url("https://fingercoder.ir/assets/fonts/bahman font/Bahman 2.ttf");
 
 }
 @font-face {
     font-family: estedad;
-    src: url("/Users/abbasdp/Documents/GitHub/fingercoder/assets/fonts/Estedad-v7.3/webfonts/statics/Estedad-Black.woff2");
+    src: url("https://fingercoder.ir/assets/fonts/Estedad-v7.3/webfonts/statics/Estedad-Black.woff2");
 }
 body {
     background-color: white;
