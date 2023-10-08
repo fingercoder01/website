@@ -1,17 +1,19 @@
 class Nav {
     constructor() {
-        this.el = document.getElementById("navbar");
+        this.el = document.getElementById("nav");
         this.el.innerHTML = this.render();
     }
 
     render = () => {
-        return `
-        <a href="http://shirazlinuxcommunity.ir/">صفحه اصلی</a>
-        <a href="https://shirazlinuxcommunity.ir/#event">نشست ها</a>
-        <a href="https://shirazlinuxcommunity.ir/#conference">همایش ها</a>
-        <a href="https://shirazlinuxcommunity.ir/#myFooter">درباره ما</a>
-        <img src="https://shirazlinuxcommunity.ir/assets/jpg/55566.jpeg" alt="">
-        `; 
+        return `<img src=" https://fingercoder.ir/assets/jpg/logo.png" alt="">
+        <ul>
+            <li><a href="https://fingercoder.ir">خانه</a></li>
+            <li><a href="https://fingercoder.ir/#team">درباره ما</a></li>
+            <li><a href="https://fingercoder.ir/#event">نشست ها</a></li>
+            <li><a href="https://fingercoder.ir/#participant">شرکت کنندگان</a></li>
+            <li><a href="https://photo.fingercoder.ir">گالری</a></li>
+    
+        </ul>`; 
     }
 }
 

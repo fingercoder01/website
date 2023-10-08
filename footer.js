@@ -8,44 +8,32 @@ class Footer {
         return  `<div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <h5>اطلاعات بیشتر</h5>
+                <h5>تماس با ما</h5>
                 <ul>
-                    <li><a href="#">هیت مدیره</a></li>
-                    <li><a href="#">تیم اجرایی</a></li>
-                    <li><a href="https://github.com/shirazlinux/shirazlinuxcommunity">مشارکت در طراحی سایت</a></li>
+                    <li><a href="tel:09353554898">09353554898</a></li>
+                    <li><a href="mailto: info@fingercoder.ir">info@fingercoder.ir</a></li>                       
                 </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>دسترسی سریع</h5>
-                <ul>
-                    <li><a href="https://shirazlinux.blogix.ir/">وبلاگ</a></li>
-                    <li><a href="#">محتوای آزاد</a></li>
-                    <li><a href="#">سوالات متداول</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>درباره ما</h5>
-                <ul>
-                    <li><a href="https://shirazlinuxcommunity.ir/assets/page/asasname">اساسنامه جامعه</a></li>
-                    <li><a href="#">مرام نامه جامعه</a></li>
-                    <li><a href="#">درباره جامعه</a></li>
-                </ul>
-            </div>
+            </div>           
             <div class="col-sm-3 info">
-                <h5>جامعه لینوکسی شیراز</h5>
-                <p>جامعه لینوکسی شیراز، جایی برای افرادی است که به فناوری و جامعه باز و متن باز علاقه‌مندند. با هم‌نشینی در این جامعه، می‌توانید از دانش و تجربیات یکدیگر بهره‌مند شوید و با هم به رشد و پیشرفت جامعه لینوکسی در شیراز کمک کنید.</p>
+                <h5><a href="https://mellipay.ir/mellilink/fingercoder/">کمک به فینگرکدر</a></h5>
+                <h5><a href="https://fingercoder.ir/#event">شرکت در دورهمی</a></h5>
+                <h5><a href="https://docs.google.com/forms/d/e/1FAIpQLScxoLSmm5SyKwlbOMoPIJQK_HlypsFMaCPPlOSbAhvxFXMfmw/viewform">عضویت به تیم اجرایی</a></h5>
+                <h5><a href="https://docs.google.com/forms/d/e/1FAIpQLScOTvEy-EuqQeIN_kroX2yBP7i2LkxbBkP3SjrgR11PUdiRIw/viewform?usp=sharing">درخواست ارائه</a></h5>
+                <h5><a href="https://github.com/fingercoder01/website">مشارکت در طراحی سایت</a></h5>
             </div>
         </div>
+    </div>
+    <div class="col-sm-3">
+        <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/u?id=395231&Code=nFDskwkQw4tJRAXcEzZ7pw6iotckhCSD'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=395231&Code=nFDskwkQw4tJRAXcEzZ7pw6iotckhCSD' alt='' style='cursor:pointer' Code='nFDskwkQw4tJRAXcEzZ7pw6iotckhCSD'></a>
     </div>
     <div class="second-bar">
        <div class="container">
        <div class="social-icons">
-            <a href="https://instagram.com/shirazlinux?igshid=OGQ5ZDc2ODk2ZA==" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/instagram.svg" alt=""></a>
-            <a href="https://www.linkdin.com/company/shirazlinuxcommunity/" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/linkedin.svg" alt=""></a>
-            <a href="https://t.me/shirazlinuxcommunity" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/telegram.svg" alt=""></a>
-            <a href="https://www.youtube.com/@shirazlinux" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/youtube.svg" alt=""></a>
-            <img class="logo" src="https://shirazlinuxcommunity.ir/assets/jpg/IMG_8509.PNG" alt="">
-            <p>تمامی حقوق محفوظ است. &copy; جامعه لینوکسی شیراز - ۱۴۰۰ </p>
+            <a href="https://instagram.com/fingercoder"><img src="https://shirazlinuxcommunity.ir/assets/jpg/instagram.svg" alt=""></a>
+            <a href="https://www.linkdin.com/company/fingercoder/" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/linkedin.svg" alt=""></a>
+            <a href="https://t.me/fingercoder" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/telegram.svg" alt=""></a>
+            <a href="https://www.aparat.com/fingercoder" ><img src="https://shirazlinuxcommunity.ir/assets/jpg/youtube.svg" alt=""></a>
+            <p>تمامی حقوق محفوظ است. &copy; فینگرکدر - ۱۴۰۰ </p>
         </div>
         </div>
     </div>`; 
