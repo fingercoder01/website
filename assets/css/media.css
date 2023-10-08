@@ -310,6 +310,24 @@
         padding: 10px 0;
         
     }
+    .event .eventpost{
+        position: relative;
+        width: 600px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 600px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 235px;
+        right: 170px;
+        width: 243px;
+        height: 42px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
 }
     
 
@@ -386,7 +404,25 @@
         top: 70px;
         padding: 0 20px;
     }
-
+    .event .eventpost{
+        position: relative;
+      
+        width: 500px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 600px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 235px;
+        right: 110px;
+        width: 243px;
+        height: 42px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
 
 @media screen and (max-width: 550px){
     .team > h3 {
@@ -502,6 +538,30 @@
         font-size: 25px;
         color: #02C39A;
         padding: 10px 0;
+        
+    }
+    .event .eventpost{
+        position: relative;
+      
+        width: 400px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 500px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 235px;
+        right: 90px;
+        width: 203px;
+        height: 42px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
+    .event .eventpost a {
+        font-size: 16px;
+        font-family: estedad;
         
     }
 }
@@ -621,7 +681,30 @@
         padding-bottom: 50px;
 
     }
-
+    .event .eventpost{
+        position: relative;
+      
+        width: 350px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 400px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 225px;
+        right: 80px;
+        width: 180px;
+        height: 32px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
+    .event .eventpost a {
+        font-size: 14px;
+        font-family: estedad;
+        
+    }
 }
 
 @media screen and (max-width: 385px){
@@ -701,6 +784,33 @@
         padding: 10px 0;
         
     }
+    .event .eventpost{
+        position: relative;
+      
+        width: 300px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 350px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 180px;
+        right: 60px;
+        width: 160px;
+        height: 32px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
+    .event .eventpost a {
+        font-size: 12px;
+        font-family: estedad;
+        
+    }
+    .event .eventpost iframe {
+        height: 160px;
+    }
 }
 
 @media screen and (max-width: 340px){
@@ -765,13 +875,39 @@
         padding: 10px 0;
         
     }
+    .event .eventpost{
+        position: relative;
+      
+        width: 250px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 300px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 175px;
+        right: 60px;
+        width: 120px;
+        height: 32px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
+    .event .eventpost button a {
+        font-size: 10px;
+        font-family: estedad;
+        
+    }
+    .event .eventpost iframe {
+        height: 160px;
+    }
 
 }
 
 @media screen and (max-width: 285px){
     .navbar {
         height: 50px;
-        position: fixed !important;
         width: 100%;
         padding: 0 !important;
         overflow: hidden;
@@ -850,6 +986,32 @@
         color: #02C39A;
         padding: 10px 0;
         
+    }
+    .event .eventpost{
+        position: relative;
+        width: 200px;        
+        margin: 0 auto;
+    }
+    .event .eventpost img {
+        height: 250px;
+    }
+    .event .eventpost button {
+        position: absolute;
+        bottom: 135px;
+        right: 40px;
+        width: 100px;
+        height: 22px;
+        border-radius: 17px;
+        background-color: #02C39A; 
+        color: white;
+    }
+    .event .eventpost a {
+        font-size: 8px;
+        font-family: estedad;
+        
+    }
+    .event .eventpost iframe {
+        height: 120px;
     }
 }
 }

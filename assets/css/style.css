@@ -169,6 +169,9 @@ hr{
     padding: 0 40px;
 }
 
+.event {
+    background-color: #dfe1df;
+}
 .event > p {
     text-shadow: black  ;
     text-align: center;
@@ -178,7 +181,49 @@ hr{
     padding: 10px 0;
     
 }
+.event .eventpost{
+    position: relative;
+  
+    width: 720px;
+    margin: 0 auto;
+}
+.event .eventpost h4 {
+    text-align: center;
+    font-family: bahman;
+    font-size: 35px;
+    padding-top: 10px;
+    color: #144a04;
 
+}
+.event .eventpost iframe {
+    height: 200px;
+}
+.event .eventpost img {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 15px 15px 0 0 ;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+}
+.event .eventpost button {
+    position: absolute;
+    bottom: 280px;
+    right: 230px;
+    width: 243px;
+    height: 42px;
+    border-radius: 17px;
+    background-color: #02C39A; 
+    color: white;
+}
+.event .eventpost button:hover{
+    color: black;
+}
+.event .eventpost a {
+    font-size: 18px;
+    font-family: estedad;
+    
+}
 #myFooter {
     background-color: #262f2d !important;
 }
