@@ -292,3 +292,19 @@ hr{
     color: rgb(42, 0, 255);
     background-color: rgb(219, 247, 247);
 }
+
+
+/* style scripts */
+
+.ravesh-mini-dialog {
+    width: 95% !important;
+}
+
+/* div .ravesh-mini-dialog-overlay {
+    top: unset !important;
+    bottom: 107px !important;
+}
+
+.ravesh-mini-dialog {
+    width: 90% !important;
+} */
