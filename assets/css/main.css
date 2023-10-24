@@ -6,6 +6,9 @@
 html {
   overflow-x: hidden;
 }
+.ravesh-mini-dialog {
+  width: 90% !important;
+}
 .estedad {
   font-family: Estedad !important;
 }
