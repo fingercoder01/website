@@ -40,7 +40,7 @@ body {
   background: #fff;
   font-size: 15px;
   font-weight: 400;
-  font-family: Vazirmatn, sans-serif ;
+  font-family: Vazirmatn !important;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -75,7 +75,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: vazir !important;
   margin: 0px;
   font-size: 14px;
 }
@@ -237,6 +237,20 @@ ul li, ol li {
   display: inline-block;
 }
 
+.btn > a {
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+
 .btn i {
   margin-right: 5px;
 }
@@ -255,6 +269,15 @@ ul li, ol li {
 }
 
 .btn-common:hover {
+  color: #1a1a1a;
+  background: #33cc99;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.btn-common > a :hover {
   color: #1a1a1a;
   background: #33cc99;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
@@ -284,6 +307,8 @@ ul li, ol li {
   padding: 7px 10px;
   text-transform: capitalize;
 }
+
+
 
 button:focus {
   outline: none !important;
@@ -631,7 +656,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 15px;
 }
 .navbar{
-  font-family: Estedad;
+  font-family: Estedad !important;
 }
 .navbar-brand {
   position: relative;
@@ -938,7 +963,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
 }
 .about-item .about-text>p{
-  font-family: Estedad;
+  font-family: Estedad !important;
   font-size: 16px;
 }
 .about-item .about-text h3 {
@@ -1203,7 +1228,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-align: right;
   position: relative;
   font-size: 16px;
-  font-family: estedad;
+  font-family: Estedad !important;
 }
 
 .accordion .header-title:after {
@@ -1500,7 +1525,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item .info-text p {
-  font-family: estedad;
+  font-family: Estedad !important;
   font-size: 16px;
   margin: 0;
   color: #fefdfd;
@@ -1826,7 +1851,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .footer-area p {
-  font-family: estedad;
+  font-family: Estedad !important;
   font-size: 14px;
   color: #fff;
   line-height: 20px;
@@ -2151,7 +2176,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 #pricing .price-block-wrapper .price p {
   font-family: var(Vazirmatn) !important;
   font-size: 18px;
-  font-family: estedad;
+  font-family: Estedad !important;
   color: #5c5c5c;
   font-weight: 700;
   letter-spacing: 1px;
