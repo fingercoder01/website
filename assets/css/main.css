@@ -10,10 +10,10 @@ html {
   width: 95% !important;
 }
 .estedad {
-  font-family: Estedad !important;
+  font-family: EstedadMedium, sans-serif !important;
 }
 .estedad-b {
-  font-family: Estedad !important;
+  font-family: EstedadMedium, sans-serif !important;
   font-size: 18px;
 }
 .titr {
@@ -43,7 +43,7 @@ body {
   background: #fff;
   font-size: 15px;
   font-weight: 400;
-  font-family: Vazirmatn !important;
+  font-family: Vazirmatn, sans-serif !important;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1235,7 +1235,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .accordion .header-title:after {
-  font-family: "LineIcons";
   content: "\e93a";
   position: absolute;
   left: 2px;
@@ -2179,7 +2178,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 #pricing .price-block-wrapper .price p {
   font-family: var(Vazirmatn) !important;
   font-size: 18px;
-  font-family: Estedad !important;
   color: #5c5c5c;
   font-weight: 700;
   letter-spacing: 1px;
