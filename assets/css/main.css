@@ -1,13 +1,5 @@
-@font-face {
-  font-family: estedad;
-  src: url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Black.woff2") format("woff2"),
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Bold.woff2") format("woff2"),
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-ExtraBold.woff2") format("woff2"), 
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-ExtraLight.woff2") format("woff2"), 
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Light.woff2") format("woff2"),
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Medium.woff2") format("woff2"), 
-  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Regular.woff2") format("woff2"),;
-}
+@import url('https://v1.fontapi.ir/css/Estedad:400');
+
 @font-face {
   font-family: titr;
   src: url("assets/fonts/B-Titr-Bold-0.ttf");
