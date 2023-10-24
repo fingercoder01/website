@@ -1,11 +1,16 @@
 @font-face {
-  font-family: Estedad;
-  src: url("assets/fonts/Estedad-Bold.ttf");
+  font-family: estedad;
+  src: url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Black.woff2") format("woff2"),
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Bold.woff2") format("woff2"),
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-ExtraBold.woff2") format("woff2"), 
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-ExtraLight.woff2") format("woff2"), 
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Light.woff2") format("woff2"),
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Medium.woff2") format("woff2"), 
+  url("assets/fonts/Estedad-v7.3 3/statics/Estedad-Regular.woff2") format("woff2"),;
 }
-
 @font-face {
   font-family: titr;
-  src: url("../../assets/fonts/B-Titr-Bold-0.ttf");
+  src: url("assets/fonts/B-Titr-Bold-0.ttf");
 }
 
 html {
@@ -803,7 +808,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #212121;
   border-bottom: 1px solid #f1f1f1;
   text-decoration: none;
-  display: inline-block;
   float: left;
   clear: both;
   position: relative;
@@ -878,9 +882,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-  #nav-main li a.nav-link {
-
-  }
+  
 }
 
 .navbar-toggler {
@@ -1989,9 +1991,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 10px 20px;
 }
 
-.widget {
- 
-}
+
 
 .widget .widget-title {
   margin-bottom: 20px;
